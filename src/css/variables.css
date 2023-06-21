@@ -1,0 +1,9 @@
+:root{
+    --first-box-color: hsl(180, 62%, 55%);
+    --second-box-color: hsl(0, 78%, 62%);
+    --third-box-color: hsl(34, 97%, 64%);
+    --fourth-box-color: hsl(212, 86%, 64%);
+    --title-color: hsl(234, 12%, 34%);
+    --text-color: hsl(229, 6%, 66%);
+    --bg-color: hsl(0, 0%, 98%);
+}

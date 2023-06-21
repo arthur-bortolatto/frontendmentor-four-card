@@ -1,0 +1,29 @@
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    .second {
+        margin-bottom: 2.5rem;
+    }
+
+    .container .main-text {
+        padding: 2rem 4rem;
+        margin-top: 2.5rem;
+        width: fit-content;
+    }
+
+    .container .main-text .title {
+        font-size: 2rem;
+    }
+
+    .container .main-text .subtitle {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,100 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-color);
+    font-weight: 400;
+}
+
+html h2,
+h3 {
+    color: var(--title-color);
+}
+
+html p {
+    color: var(--text-color);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .main-text {
+    text-align: center;
+    width: 44rem;
+}
+
+.container .main-text::first-line {
+    font-weight: 200;
+}
+
+.container .main-text .title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.container .main-text .subtitle {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+.container .cards {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 2.5rem;
+}
+
+.container .cards .middle {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.container .cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20rem;
+    width: 28rem;
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0.5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 2.5rem;
+}
+
+.container .cards .first {
+    border-top: var(--first-box-color) solid 3.5px;
+}
+
+.container .cards .second {
+    border-top: var(--second-box-color) solid 3.5px;
+}
+
+.container .cards .third {
+    border-top: var(--third-box-color) solid 3.5px;
+}
+
+.container .cards .fourth {
+    border-top: var(--fourth-box-color) solid 3.5px;
+}
+
+.container .cards .middle {
+    flex-direction: column;
+}
+
+.container .cards .content .title-card {
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+}
+
+.container .cards .content .text-card {
+    line-height: 1.8rem;
+}
+
+.container .cards .card img {
+    width: 22%;
+    align-self: flex-end;
+}
